@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+
+from pymtl import *
+from tut3_pymtl.sort import SortUnitFlatRTL
+model = SortUnitFlatRTL()
+model = TranslationTool( model )
